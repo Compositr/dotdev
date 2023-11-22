@@ -3,6 +3,8 @@ import { LuMail } from "react-icons/lu";
 import { BsDiscord, BsGithub, BsTelegram, BsTwitter } from "react-icons/bs";
 import Section from "@/components/Section";
 import CardFlex from "@/components/CardFlex";
+import ProjectCard from "@/components/ProjectCard";
+import SuroiImage from "@/public/projects/suroi.svg";
 
 export default function Home() {
   return (
@@ -77,7 +79,15 @@ export default function Home() {
         </CardFlex>
       </Section>
       <Section title="Projects">
-        <p>Nothing interesting yet...</p>
+        <ProjectCard
+          name="HasangerGames/suroi-wiki"
+          description="Official wiki for the 2D shooter game suroi.io"
+          href="https://wiki.suroi.io"
+          imageSrc={SuroiImage}
+          w={169}
+          h={42}
+        />
+        <p>More coming soon™</p>
       </Section>
     </main>
   );
