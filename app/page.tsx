@@ -1,6 +1,7 @@
 import ContactCard from "@/components/ContactCard";
 import { LuMail } from "react-icons/lu";
 import { BsDiscord, BsGithub, BsTelegram, BsTwitter } from "react-icons/bs";
+import { SiMatrix } from "react-icons/si";
 import Section from "@/components/Section";
 import CardFlex from "@/components/CardFlex";
 import ProjectCard from "@/components/ProjectCard";
@@ -8,7 +9,7 @@ import SuroiImage from "@/public/projects/suroi.svg";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center min-h-screen sm:p-0 px-6 bg-slate-800">
+    <main className="flex flex-col items-center min-h-screen sm:p-0 px-6 py-4 bg-slate-800">
       <div className="prose prose-invert mt-8">
         <h1>
           Hey, I&apos;m <span className="text-compositr">Compositr</span>!
@@ -61,6 +62,11 @@ export default function Home() {
             href="https://t.me/Compositr"
             icon={<BsTelegram />}
             title="@Compositr"
+          />
+          <ContactCard
+            href="https://matrix.to/#/@compositr:chat.compositr.dev"
+            icon={<SiMatrix />}
+            title="@compositr:chat.compositr.dev"
           />
         </CardFlex>
       </Section>
