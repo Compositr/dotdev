@@ -1,7 +1,6 @@
 import ContactCard from "@/components/ContactCard";
 import { LuMail } from "react-icons/lu";
 import { BsDiscord, BsGithub, BsTelegram, BsTwitter } from "react-icons/bs";
-import { SiMatrix } from "react-icons/si";
 import Section from "@/components/Section";
 import CardFlex from "@/components/CardFlex";
 import ProjectCard from "@/components/ProjectCard";
@@ -21,6 +20,7 @@ export default function Home() {
             className="text-[#3178C6] font-bold"
             href="https://typescriptlang.org"
             target="_blank"
+            rel="noopener noreferrer"
           >
             TypeScript
           </a>{" "}
@@ -31,6 +31,7 @@ export default function Home() {
           <a
             href="https://nextjs.org"
             target="_blank"
+            rel="noopener noreferrer"
             className="font-bold text-transparent bg-clip-text border-b border-spacing-0 border-gray-400 bg-gradient-to-tr from-gray-500 to-white/90"
           >
             Next.js
@@ -39,6 +40,7 @@ export default function Home() {
           <a
             className="text-[#07B6D5] font-bold"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://tailwindcss.com"
           >
             Tailwind
@@ -62,11 +64,6 @@ export default function Home() {
             href="https://t.me/Compositr"
             icon={<BsTelegram />}
             title="@Compositr"
-          />
-          <ContactCard
-            href="https://matrix.to/#/@compositr:chat.compositr.dev"
-            icon={<SiMatrix />}
-            title="@compositr:chat.compositr.dev"
           />
         </CardFlex>
       </Section>
