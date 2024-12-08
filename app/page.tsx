@@ -45,7 +45,7 @@ export default function Home() {
           >
             Tailwind
           </a>
-          , but I have recently also tried out <a href="https://redwoodjs.com" target="_blank" rel="noopener noreferrer" className="font-bold text-[#bf4722]">RedwoodJS</a> as a more opinonated JAM-stack-like alternative.
+          , but I have recently also tried out <a href="https://redwoodjs.com" target="_blank" rel="noopener noreferrer" className="font-bold text-[#bf4722]">RedwoodJS</a> as a more opinionated JAM-stack-like alternative.
         </p>
         <p>
           I am currently learning <a href="https://rust-lang.org" target="_blank" rel="noopener noreferrer" className="font-bold text-[#B7410E]">Rust</a> just out of curiosity.
