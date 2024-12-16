@@ -5,6 +5,7 @@ import Section from "@/components/Section";
 import CardFlex from "@/components/CardFlex";
 import ProjectCard from "@/components/ProjectCard";
 import SuroiImage from "@/public/projects/suroi.svg";
+import AstrialImage from "@/public/projects/landscape-logo-white.svg"
 
 export default function Home() {
   return (
@@ -86,6 +87,14 @@ export default function Home() {
       </Section>
       <Section title="Projects">
         <p>Here are some of the projects I have participated in or contributed to:</p>
+        <ProjectCard
+        name="Astrial.org"
+        description="[WIP] Astrial hosts a variety of open source alternative services."
+        href="https://astrial.org"
+        imageSrc={AstrialImage}
+        w={169}
+        h={42}
+        />
         <small><i>NB: I am no longer assoicated with the Suroi project</i></small>
         <ProjectCard
           name="HasangerGames/suroi-wiki"
