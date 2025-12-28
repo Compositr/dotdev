@@ -10,6 +10,29 @@ import AstrialImage from "@/public/projects/landscape-logo-white.svg"
 export default function Home() {
   return (
     <main className="flex flex-col items-center min-h-screen sm:p-0 px-6 py-4 bg-slate-800">
+      <div class="p-4 border-red-500 bg-red-200 border rounded-lg my-8">
+  <h1 class="text-xl font-bold mb-2">Important Notice</h1>
+  <pre>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hey! This site & identity is no longer maintained. The contact links here may no longer function... this website will remain for posterity. For the last unaltered version, check out the Wayback Machine or http://archive.today/AaTKF
+
+This will be the last message from this set of keys. They will be destroyed shortly.
+
+Thanks for all the fun :)
+
+2025-12-28 13:24:22+08:00
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTG+6+iQIol7mOczeeR494gEpoLSgUCaVC/DgAKCRCR494gEpoL
+SkS2AP9gmrzoXXaOkHR3B1uHSxfnsKXs3SpC/JbTkzjtp5c0DwEA4CybBOvOeDnC
+WH+qNYM2HvtYho2HusHdgu9vvwhJkgg=
+=pLSQ
+-----END PGP SIGNATURE-----
+
+  </pre>
+</div>
       <div className="prose prose-invert mt-8">
         <h1>
           Hey, I&apos;m <span className="text-compositr">Compositr</span>!
