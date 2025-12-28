@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center min-h-screen sm:p-0 px-6 py-4 bg-slate-800">
       <div className="prose prose-invert mt-8">
-         <div className="p-4 border-red-500 bg-red-200 border rounded-lg my-8">
+         <div className="no-prose p-4 border-red-500 bg-red-200 border rounded-lg my-8">
   <h1 className="text-xl font-bold mb-2">Important Notice</h1>
   <pre>
 -----BEGIN PGP SIGNED MESSAGE-----
